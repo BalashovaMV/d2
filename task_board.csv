@@ -1,0 +1,9 @@
+task_id,priority,task,status,depends_on,acceptance_evidence
+T1,P0,Post-fix independent audit,pending,"corrected fantasy model","analysis/postfix_audit/report.md says READY and verifies hashes/invariants"
+T2,P0,Consensus of main and independent models,pending,T1,"predeclared ensemble plus leave-one-event-out rank intervals"
+T3,P0,Exact reroll stop-rule for six tokens,pending,T1,"decision table for all three visible actions and stable/upside stop conditions"
+T4,P0,Final integrated report,pending,"T1;T2;T3","analysis/ti_2026_final_report.md"
+T5,P1,Refresh research status,pending,T4,"analysis/ti_2026_research_status.md contains current matrix and no stale failures"
+T6,P1,Create final verified snapshot,pending,"T4;T5","new final ZIP with manifest and all_hashes_match=true"
+T7,P2,Ingest official initial Swiss groups and R1 pairs,external_pending,organizer_publication,"updated swiss probabilities and bracket"
+T8,P3,Resume OpenDota detail coverage,optional,none,"handoff checkpoint updated; no replay-level overclaim"

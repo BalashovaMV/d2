@@ -1,0 +1,16 @@
+﻿{
+    "generated_utc":  "2026-08-01T08:10:21.8295199Z",
+    "passed":  true,
+    "critical_files_expected":  24,
+    "critical_files_missing":  [
+
+                               ],
+    "handoff_json_valid":  true,
+    "current_fantasy_json_valid":  true,
+    "screenshot_manifest_rows":  34,
+    "screenshot_files":  34,
+    "screenshot_hashes_valid":  true,
+    "task_rows":  8,
+    "task_ids_unique":  true,
+    "handoff_manifest_rows":  51
+}
